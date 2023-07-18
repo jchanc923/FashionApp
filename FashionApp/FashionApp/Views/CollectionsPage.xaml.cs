@@ -23,9 +23,10 @@ namespace FashionApp.Views
         private List<Category> GetCollections()
         {
             var colList = new List<Category>();
-            colList.Add(new Category { Image = "watches.png", Title = "MEN'S WRISTWATCHES" });
-            colList.Add(new Category { Image = "minidress.png", Title = "WOMEN'S MINI DRESSES" });
-            colList.Add(new Category { Image = "coats.png", Title = "WOMEN'S COATS" });
+            colList.Add(new Category { Image = "electricas.png", Title = "Herramientas electricas" });
+            colList.Add(new Category { Image = "equipamiento.png", Title = "Equipamiento" });
+            colList.Add(new Category { Image = "accesorios.png", Title = "Accesorios" });
+            colList.Add(new Category { Image = "manuales.png", Title = "Herramientas manuales" });
             return colList;
         }
     }

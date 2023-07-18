@@ -26,26 +26,30 @@ namespace FashionApp.Views
         private List<Banner> GetBanners()
         {
             var bannerList = new List<Banner>();
-            bannerList.Add(new Banner { Heading = "SUMMER COLLECTION", Message = "40% Discount", Caption = "BEST DISCOUNT THIS SEASON", Image = "classic.png" });
-            bannerList.Add(new Banner { Heading = "WOMEN'S CLOTHINGS", Message = "UP TO 50% OFF", Caption = "GET 50% OFF ON EVERY ITEM", Image = "womenCol.png" });
-            bannerList.Add(new Banner { Heading = "ELEGANT COLLECTION", Message = "20% Discount", Caption = "UNIQUE COMBINATIONS OF ITEMS", Image = "elegantCol.png" });
+            bannerList.Add(new Banner { Heading = "Promociones de Temporada", Message = "40% de Descuento", Caption = "Los mejores descuentos del año", Image = "banner2.png" });
+            bannerList.Add(new Banner { Heading = "Herramientas electricas", Message = "Más de 50% OFF", Caption = "Obten 50% OFF en todas las herramientas electricas", Image = "electricas.png" });
+            bannerList.Add(new Banner { Heading = "Accesorios", Message = "20% de Descuento", Caption = "Arma tu caja de herramienta con una combinación unica", Image = "banner3.jpg" });
             return bannerList;
         }
 
         private List<Product> GetCollections()
         {
             var trendList = new List<Product>();
-            trendList.Add(new Product { Image = "floral.png", Name = "Floral Bag + Hat", Price = "$123.50" });
-            trendList.Add(new Product { Image = "satchel.png", Name = "Satchel Bag", Price = "$49.99" });
-            trendList.Add(new Product { Image = "leatherBag.png", Name = "Leather Bag", Price = "$40.99" });
+            trendList.Add(new Product { Image = "desbrozadora.png", Name = "Desbrozadora M18 FUEL™" , Price = "$431.50" });
+            trendList.Add(new Product { Image = "destrozadora.png", Name = "Desbrozadora M18 FUEL™", Price = "$249.99" });
+            trendList.Add(new Product { Image = "taladro.png", Name = "Taladro/destornillador de instalación M12 FUEL™", Price = "$140.99" });
             return trendList;
         }
 
         private List<Product> GetTrends()
         {
             var colList = new List<Product>();
-            colList.Add(new Product { Image = "heeledShoe.png", Name = "Beige Heeled Shoe", Price = "$109.99" });
-            colList.Add(new Product { Image = "dressShoe.png", Name = "Shoe + Addons", Price = "$225.99" });
+            colList.Add(new Product { Image = "kittaladro.png", Name = "Kit de taladro magnético M18 FUEL™ de 1-1/2\"", Price = "$222.99" });
+            colList.Add(new Product { Image = "taladro.png", Name = "Taladro/destornillador M18 FUEL™ de ½” con ONE-KEY™", Price = "$225.99" });
+            colList.Add(new Product { Image = "kittaladro.png", Name = "Kit de taladro magnético M18 FUEL™ de 1-1/2\"", Price = "$222.99" });
+            colList.Add(new Product { Image = "taladro.png", Name = "Taladro/destornillador M18 FUEL™ de ½” con ONE-KEY™", Price = "$225.99" });
+            colList.Add(new Product { Image = "kittaladro.png", Name = "Kit de taladro magnético M18 FUEL™ de 1-1/2\"", Price = "$222.99" });
+            colList.Add(new Product { Image = "taladro.png", Name = "Taladro/destornillador M18 FUEL™ de ½” con ONE-KEY™", Price = "$225.99" });
             return colList;
         }
 

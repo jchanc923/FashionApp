@@ -9,8 +9,8 @@
 
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="ThemeColor">#530100</Color>
-            <Color x:Key="GrayColor">Gray</Color>
+            <Color x:Key="ThemeColor">#D90C21</Color>
+            <Color x:Key="GrayColor">#D90C21</Color>
             <Color x:Key="BgColor">#F0F0F0</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource BgColor}"/>

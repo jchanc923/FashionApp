@@ -23,9 +23,9 @@ namespace FashionApp.Views
         private List<Category> GetCategories()
         {
             var catList = new List<Category>();
-            catList.Add(new Category { Image = "summerCol.png", Title = "SUMMER COLLECTION", Caption = "BEST DISCOUNT THIS SEASON" });
-            catList.Add(new Category { Image = "womenCol.png", Title = "WOMEN'S CLOTHINGS", Caption = "UP TO 50% OFF ON EVERY ITEM" });
-            catList.Add(new Category { Image = "elegantCol.png", Title = "ELEGANT CLOTHINGS", Caption = "UNQUE COLLECTIONS AND STYLES" });
+            catList.Add(new Category { Image = "powertools.png", Title = "POWER TOOLS", Caption = "OBTEN 50% OFF EN TODAS LAS HERRAMIENTAS ELECTRICAS" });
+            catList.Add(new Category { Image = "manuales2.png", Title = "MANUAL TOOLS", Caption = "MÁS DE 50% OFF EN TODOS LAS HERRAMIENTAS MANUALES " });
+            catList.Add(new Category { Image = "automotriz.png", Title = "AUTOMOTRIZ", Caption = "20% OFF EN HERRAMIENTAS ELÉCTRICAS AUTOMOTRICES" });
             return catList;
         }
     }
